@@ -108,34 +108,56 @@
         </div>
         <div class="row">
           <div class="col-lg-4 col-md-6 col-xs-12">
-            <div class="item-boxes services-item wow fadeInDown" data-wow-delay="0.2s">
-              <div class="icon color-1">
-                <i class="lni-pencil"></i>
+            <a href="#">
+              <div class="item-boxes services-item wow fadeInDown" data-wow-delay="0.2s">
+                <div class="icon color-1">
+                  <i class="lni-pencil"></i>
+                </div>
+                <h4>Leituras obrigatórias</h4>
+                <p>Categoria de leituras obrigatórias do Ensino Médio Distrito Criativo, aqui você encontra livros de todas as matérias presentes na matriz curricular e mais.</p>
               </div>
-              <h4>Leituras obrigatórias</h4>
-              <p>Categoria de leituras obrigatórias do Ensino Médio Distrito Criativo, aqui você encontra livros de todas as matérias presentes na matriz curricular e mais.</p>
-            </div>
+            </a>
           </div>
           <div class="col-lg-4 col-md-6 col-xs-12">
-            <div class="item-boxes services-item wow fadeInDown" data-wow-delay="0.4s">
-              <div class="icon color-2">
-                <i class="lni-cog"></i>
+            <a href="#">
+              <div class="item-boxes services-item wow fadeInDown" data-wow-delay="0.4s">
+                <div class="icon color-4">
+                  <i class="lni-graduation"></i>
+                </div>
+                <h4>Indicados pelo Senac</h4>
+                <p>Aqui você encontra as indicações da nossa escola para os alunos, desde livros clássicos como Romeu e Julieta até os mais modernos, como O Morro dos Ventos Uivantes.</p>
               </div>
-              <h4>Indicados pelo Senac</h4>
-              <p>Aqui você encontra as indicações da nossa escola para os alunos, desde livros clássicos como Romeu e Julieta até os mais modernos, como O Morro dos Ventos Uivantes.</p>
-            </div>
+            </a>
           </div>
           <div class="col-lg-4 col-md-6 col-xs-12">
-            <div class="item-boxes services-item wow fadeInDown" data-wow-delay="0.6s">
-              <div class="icon color-3">
-                <i class="lni-stats-up"></i>
+            <a href="#">
+              <div class="item-boxes services-item wow fadeInDown" data-wow-delay="0.6s">
+                <div class="icon color-2">
+                  <i class="lni-crown"></i>
+                </div>
+                <h4>Para ler antes de morrer</h4>
+                <p>Clique aqui para ver nossas indicações de livros que você não pode deixar de ler, dos mais lidos aos merecedores de mais reconhecimento.</p>
               </div>
-              <h4>Para ler antes de morrer</h4>
-              <p>Clique aqui para ver nossas indicações de livros que você não pode deixar de ler, dos mais lidos aos merecedores de mais reconhecimento.</p>
-            </div>
+            </a>
           </div>
-          <!-- Aqui vai ficar o dropdown com as categorias -->
         </div>
+        <!-- Split dropend button -->
+        <div class="btn-group">
+          <button type="button" class="btn btn-primary dropdown-toggle" data-toggle="dropdown" aria-expanded="false">Mais categorias </button>
+          <ul class="dropdown-menu" role="menu">
+            <li><a href="#">Categoria1</a></li>
+            <li><a href="#">Categoria2</a></li>
+            <li><a href="#">Categoria3</a></li>
+          </ul>
+        </div>
+            
+        <script src='http://code.jquery.com/jquery-2.1.3.min.js'></script>
+        <script src='//maxcdn.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js'></script>
+        <script>
+          $(function () {
+            $('.dropdown-toggle').dropdown();
+          }); 
+        </script>
       </div>
     </section>
     <!-- Services Section End -->
@@ -247,6 +269,7 @@
                   <li><a href="#">Perfil</a></li>
                   <li><a href="#">Sobre nós</a></li>
                   <li><a href="#">Principais livros</a></li>
+                  <li><a href="#">Contato</a></li>
                 </ul>
               </div>
             </div>
@@ -266,19 +289,6 @@
                 </ul> 
               </div>
             </div>
-            <div class="col-lg-3 col-md-6 col-sm-6 col-xs-6 col-mb-12">
-              <div class="widget">
-                <h3 class="block-title">Instagram</h3>
-                <ul class="instagram-footer">
-                  <li><a href="#"><img src="img/instagram/insta1.jpg" alt=""></a></li>
-                  <li><a href="#"><img src="img/instagram/insta2.jpg" alt=""></a></li>
-                  <li><a href="#"><img src="img/instagram/insta3.jpg" alt=""></a></li>
-                  <li><a href="#"><img src="img/instagram/insta4.jpg" alt=""></a></li>
-                  <li><a href="#"><img src="img/instagram/insta5.jpg" alt=""></a></li>
-                  <li><a href="#"><img src="img/instagram/insta6.jpg" alt=""></a></li>
-                </ul>
-              </div>
-            </div>
           </div>
         </div>
       </section>
@@ -292,25 +302,6 @@
               <div class="site-info float-left">
                 <p>Desenvolvido por <a href="https://github.com/senacrs-emti/2022-3M-biblioteca" rel="nofollow">Equipe Paulindos</a></p>
               </div>              
-              <div class="float-right">  
-                <ul class="nav nav-inline">
-                  <li class="nav-item">
-                    <a class="nav-link active" href="#">About Prime</a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link" href="#">TOS</a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link" href="#">Return Policy</a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link" href="#">FAQ</a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link" href="#">Contact</a>
-                  </li>
-                </ul>
-              </div>
             </div>
           </div>
         </div>

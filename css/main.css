@@ -68,6 +68,24 @@ a:not([href]):not([tabindex]):focus, a:not([href]):not([tabindex]):hover {
   color: #fff;
 }
 
+.btn-primary {
+  background: none repeat scroll 0 0 #F97794 !important;
+  border: 1px solid #FFFFFF;
+  font-size: 14px;
+  padding: 5px 0px;
+  margin-left: 30px;
+  position: relative;
+}
+
+.dropdown-menu {
+  color: #ffffff;
+  background-color: transparent !important;
+  font-size: 14px;
+  padding: 5px 0px;
+  margin-left: 30px;
+  float: left;
+}
+
 .bg-transparent {
   background: transparent !important;
 }
