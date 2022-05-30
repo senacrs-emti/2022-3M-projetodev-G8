@@ -56,31 +56,30 @@
           </ol>
           <div class="carousel-inner" role="listbox">
             <div class="carousel-item active">
-              <img src="img/slider/bg-1.jpg" alt="">
-              <div class="carousel-caption text-left">
-                <h3 class="wow fadeInRight" data-wow-delay="0.2s">Handcrafted</h1>  
-                <h2 class="wow fadeInRight" data-wow-delay="0.4s">Bootstrap 4 Template</h2>
-                <h4 class="wow fadeInRight" data-wow-delay="0.6s">Comes with All Essential Sections & Elements</h4>
-                <a href="#" class="btn btn-lg btn-common btn-effect wow fadeInRight" data-wow-delay="0.9s">Download</a>
-                <a href="#" class="btn btn-lg btn-border wow fadeInRight" data-wow-delay="1.2s">Get Started!</a>
-              </div>
-            </div>
-            <div class="carousel-item">
-              <img src="img/slider/bg-3.jpg" alt="">
+              <img src="img/slider/bg-2.jpg" alt="">
               <div class="carousel-caption text-center">
-                <h3 class="wow fadeInDown" data-wow-delay="0.3s">Bundled With Tons of</h3>
-                <h2 class="wow bounceIn" data-wow-delay="0.6s">Cutting-edge Features</h2> 
-                <h4 class="wow fadeInUp" data-wow-delay="0.9s">Parallax, Video, Product, Premium Addons and More...</h4>
-                <a href="#" class="btn btn-lg btn-common btn-effect wow fadeInUp" data-wow-delay="1.2s">View Works</a>
+                <h3 class="wow fadeInDown" data-wow-delay="0.3s">Nossa Principal Categoria</h3>
+                <h2 class="wow fadeInRight" data-wow-delay="0.6s">Recomendados Senac</h2> 
+                <h4 class="wow fadeInUp" data-wow-delay="0.6s">Livros clássicos, best-sallers e mais</h4>
+                <a href="#" class="btn btn-lg btn-border wow fadeInUp" data-wow-delay="0.9s">Clique e explore</a>
               </div>
             </div>
             <div class="carousel-item">
               <img src="img/slider/bg-2.jpg" alt="">
               <div class="carousel-caption text-center">
-                <h3 class="wow fadeInDown" data-wow-delay="0.3s">Ready For</h3>
-                <h2 class="wow fadeInRight" data-wow-delay="0.6s">Multi-purpose Websites</h2> 
-                <h4 class="wow fadeInUp" data-wow-delay="0.6s">App, Business, SaaS and Landing Pages</h4>
-                <a href="#" class="btn btn-lg btn-border wow fadeInUp" data-wow-delay="0.9s">Purchase</a>
+                <h3 class="wow fadeInDown" data-wow-delay="0.3s">IMPORTANTE</h3>
+                <h2 class="wow fadeInRight" data-wow-delay="0.6s">Regras e Avisos</h2> 
+                <h4 class="wow fadeInUp" data-wow-delay="0.6s">Saiba as regras para alugar um livro</h4>
+                <a href="#" class="btn btn-lg btn-border wow fadeInUp" data-wow-delay="0.9s">Clique aqui</a>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <img src="img/slider/bg-2.jpg" alt="">
+              <div class="carousel-caption text-center">
+                <h3 class="wow fadeInDown" data-wow-delay="0.3s">Descubra</h3>
+                <h2 class="wow fadeInRight" data-wow-delay="0.6s">Quem Somos</h2> 
+                <h4 class="wow fadeInUp" data-wow-delay="0.6s">Alunos, desenvolvedores, leitores</h4>
+                <a href="#" class="btn btn-lg btn-border wow fadeInUp" data-wow-delay="0.9s">Saiba Mais</a>
               </div>
             </div>
           </div>
@@ -143,7 +142,7 @@
         </div>
         <!-- Split dropend button -->
         <div class="btn-group">
-          <button type="button" class="btn btn-primary dropdown-toggle" data-toggle="dropdown" aria-expanded="false">Mais categorias </button>
+          <button type="button" class="btn btn-lg btn-common btn-effect wow fadeInUp" data-toggle="dropdown" aria-expanded="false">Mais categorias </button>
           <ul class="dropdown-menu" role="menu">
             <li><a href="#">Categoria1</a></li>
             <li><a href="#">Categoria2</a></li>
@@ -161,83 +160,6 @@
       </div>
     </section>
     <!-- Services Section End -->
-
-    <!-- Blog Section -->
-    <section id="blog" class="section">
-      <!-- Container Starts -->
-      <div class="container">
-        <div class="section-header">          
-          <h2 class="section-title">Blogs</h2>
-          <span>Blogs</span>
-          <p class="section-subtitle">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dignissimos debitis.</p>
-        </div>
-        <div class="row">
-          <div class="col-lg-4 col-md-6 col-xs-12 blog-item">
-            <!-- Blog Item Starts -->
-            <div class="blog-item-wrapper">
-              <div class="blog-item-img">
-                <a href="single-post.html">
-                  <img src="img/blog/img1.jpg" alt="">
-                </a>                
-              </div>
-              <div class="blog-item-text"> 
-                <div class="date"><i class="lni-calendar"></i>10 April, 2018</div>
-                <h3><a href="single-post.html">10 Tips to Design a High-converting Landing Page</a></h3>
-                <div class="meta-tags">
-                  <span><a href="#"><i class="lni-eye"></i> 4.5k Views</a></span>
-                  <span><a href="#"><i class="lni-bubble"></i> 07</a></span>
-                  <span><a href="#"><i class="lni-reply"></i> 332</a></span>
-                </div>
-              </div>
-            </div>
-            <!-- Blog Item Wrapper Ends-->
-          </div>
-
-          <div class="col-lg-4 col-md-6 col-xs-12 blog-item">
-            <!-- Blog Item Starts -->
-            <div class="blog-item-wrapper">
-              <div class="blog-item-img">
-                <a href="single-post.html">
-                  <img src="img/blog/img2.jpg" alt="">
-                </a>                
-              </div>
-              <div class="blog-item-text"> 
-                <div class="date"><i class="lni-calendar"></i>10 April, 2018</div>
-                <h3><a href="single-post.html">How to Design a Website For Your App</a></h3>
-                <div class="meta-tags">
-                  <span><a href="#"><i class="lni-eye"></i> 4.5k Views</a></span>
-                  <span><a href="#"><i class="lni-bubble"></i> 07</a></span>
-                  <span><a href="#"><i class="lni-reply"></i> 332</a></span>
-                </div>
-              </div>
-            </div>
-            <!-- Blog Item Wrapper Ends-->
-          </div>
-
-          <div class="col-lg-4 col-md-6 col-xs-12 blog-item">
-            <!-- Blog Item Starts -->
-            <div class="blog-item-wrapper">
-              <div class="blog-item-img">
-                <a href="single-post.html">
-                  <img src="img/blog/img3.jpg" alt="">
-                </a>                
-              </div>
-              <div class="blog-item-text"> 
-                <div class="date"><i class="lni-calendar"></i>10 April, 2018</div>
-                <h3><a href="single-post.html">7 Secretes to Optimize Loading Speed of Your Site</a></h3>
-                <div class="meta-tags">
-                  <span><a href="#"><i class="lni-eye"></i> 4.5k Views</a></span>
-                  <span><a href="#"><i class="lni-bubble"></i> 07</a></span>
-                  <span><a href="#"><i class="lni-reply"></i> 332</a></span>
-                </div>
-              </div>
-            </div>
-            <!-- Blog Item Wrapper Ends-->
-          </div>
-        </div>
-      </div>
-    </section>
-    <!-- blog Section End -->
     
     <!-- Footer Section Start -->
     <footer>
@@ -344,6 +266,36 @@
     <script src="js/form-validator.min.js"></script>
     <script src="js/contact-form-script.js"></script>   
     <script src="js/main.js"></script>
-    
+        
+    <script>
+    function includeHTML() {
+      var z, i, elmnt, file, xhttp;
+      /* Loop through a collection of all HTML elements: */
+      z = document.getElementsByTagName("*");
+      for (i = 0; i < z.length; i++) {
+        elmnt = z[i];
+        /*search for elements with a certain atrribute:*/
+        file = elmnt.getAttribute("w3-include-html");
+        if (file) {
+          /* Make an HTTP request using the attribute value as the file name: */
+          xhttp = new XMLHttpRequest();
+          xhttp.onreadystatechange = function() {
+            if (this.readyState == 4) {
+              if (this.status == 200) {elmnt.innerHTML = this.responseText;}
+              if (this.status == 404) {elmnt.innerHTML = "Page not found.";}
+              /* Remove the attribute, and call this function once more: */
+              elmnt.removeAttribute("w3-include-html");
+              includeHTML();
+            }
+          }
+          xhttp.open("GET", file, true);
+          xhttp.send();
+          /* Exit the function: */
+          return;
+        }
+      }
+    }
+    </script> 
+
   </body>
 </html>
