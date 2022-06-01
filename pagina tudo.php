@@ -31,6 +31,23 @@
 
     <!-- Aqui vão ficar os códigos do "meio" da página -->
     
+  <h1> Livros </h1>
+
+
+  <div class="feature col">
+        <div class="feature-icon d-inline-flex align-items-center justify-content-center bg-primary bg-gradient text-white fs-2 mb-3">
+          <svg class="bi" width="1em" height="1em"><use xlink:href="#collection"></use></svg>
+        </div>
+        <IMG class="livro" src="https://images-na.ssl-images-amazon.com/images/I/31NpLjHHQsL._SY498_BO1,204,203,200_.jpg">
+        <h2>Titulo</h2>
+        <p> Descrição </p>
+        <a href="#" class="icon-link d-inline-flex align-items-center">
+          Mais sobre o livro
+          <svg class="bi" width="1em" height="1em"><use xlink:href="#chevron-right"></use></svg>
+        </a>
+      </div>
+
+
     <!-- Abaixo é o include do footer -->
     <include src="includes/footer.php"></include>
 
