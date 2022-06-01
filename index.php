@@ -25,77 +25,8 @@
   </head>
   
   <body>
-    <!-- Header Section Start -->
-    <header id="slider-area">  
-      <nav class="navbar navbar-expand-md fixed-top scrolling-navbar bg-white">
-        <div class="container">          
-          <a class="navbar-brand" href="index.php"><span class="lni-bulb"></span>BIBLIOTECA SENAC</a>
-          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
-            <i class="lni-menu"></i>
-          </button>
-          <div class="collapse navbar-collapse" id="navbarCollapse">
-            <ul class="navbar-nav mr-auto w-100 justify-content-end">
-              <li class="nav-item">
-                <a class="nav-link page-scroll" href="#slider-area">Home</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link page-scroll" href="#perfil">Perfil</a>
-              </li>
-            </ul>              
-          </div>
-        </div>
-      </nav> 
-
-      <!-- Main Carousel Section -->
-      <div id="carousel-area">
-        <div id="carousel-slider" class="carousel slide carousel-fade" data-ride="carousel">
-          <ol class="carousel-indicators">
-            <li data-target="#carousel-slider" data-slide-to="0" class="active"></li>
-            <li data-target="#carousel-slider" data-slide-to="1"></li>
-            <li data-target="#carousel-slider" data-slide-to="2"></li>
-          </ol>
-          <div class="carousel-inner" role="listbox">
-            <div class="carousel-item active">
-              <img src="img/slider/bg-2.jpg" alt="">
-              <div class="carousel-caption text-center">
-                <h3 class="wow fadeInDown" data-wow-delay="0.3s">Nossa Principal Categoria</h3>
-                <h2 class="wow fadeInRight" data-wow-delay="0.6s">Recomendados Senac</h2> 
-                <h4 class="wow fadeInUp" data-wow-delay="0.6s">Livros clássicos, best-sallers e mais</h4>
-                <a href="#" class="btn btn-lg btn-border wow fadeInUp" data-wow-delay="0.9s">Clique e explore</a>
-              </div>
-            </div>
-            <div class="carousel-item">
-              <img src="img/slider/bg-2.jpg" alt="">
-              <div class="carousel-caption text-center">
-                <h3 class="wow fadeInDown" data-wow-delay="0.3s">IMPORTANTE</h3>
-                <h2 class="wow fadeInRight" data-wow-delay="0.6s">Regras e Avisos</h2> 
-                <h4 class="wow fadeInUp" data-wow-delay="0.6s">Saiba as regras para alugar um livro</h4>
-                <a href="#" class="btn btn-lg btn-border wow fadeInUp" data-wow-delay="0.9s">Clique aqui</a>
-              </div>
-            </div>
-            <div class="carousel-item">
-              <img src="img/slider/bg-2.jpg" alt="">
-              <div class="carousel-caption text-center">
-                <h3 class="wow fadeInDown" data-wow-delay="0.3s">Descubra</h3>
-                <h2 class="wow fadeInRight" data-wow-delay="0.6s">Quem Somos</h2> 
-                <h4 class="wow fadeInUp" data-wow-delay="0.6s">Alunos, desenvolvedores, leitores</h4>
-                <a href="#" class="btn btn-lg btn-border wow fadeInUp" data-wow-delay="0.9s">Saiba Mais</a>
-              </div>
-            </div>
-          </div>
-          <a class="carousel-control-prev" href="#carousel-slider" role="button" data-slide="prev">
-            <span class="carousel-control" aria-hidden="true"><i class="lni-chevron-left"></i></span>
-            <span class="sr-only">Previous</span>
-          </a>
-          <a class="carousel-control-next" href="#carousel-slider" role="button" data-slide="next">
-            <span class="carousel-control" aria-hidden="true"><i class="lni-chevron-right"></i></span>
-            <span class="sr-only">Next</span>
-          </a>
-        </div>
-      </div>  
-
-    </header>
-    <!-- Header Section End --> 
+    
+    <include src="includes/header.php"></include>
 
     <!-- Services Section Start -->
     <section id="services" class="section">
@@ -161,77 +92,7 @@
     </section>
     <!-- Services Section End -->
     
-    <!-- Footer Section Start -->
-    <footer>
-      <!-- Footer Area Start -->
-      <section class="footer-Content">
-        <div class="container">
-          <div class="row">
-            <div class="col-lg-3 col-md-6 col-sm-6 col-xs-6 col-mb-12">
-              <h3>Objetivo</h3>
-              <div class="textwidget">
-                <p>Temos como missão, simplificar e melhorar
-                  a qualidade de vida dos estudantes do
-                  Senac de Ensino Médio Distrito Criativo, propondo
-                  livros de leitura obrigatório e também livros
-                  voltados para o lazer.</p>
-              </div>
-              <ul class="footer-social">
-                <li><a class="facebook" href="#"><i class="lni-facebook-filled"></i></a></li>
-                <li><a class="twitter" href="#"><i class="lni-twitter-filled"></i></a></li>
-                <li><a class="linkedin" href="#"><i class="lni-linkedin-fill"></i></a></li>
-                <li><a class="google-plus" href="#"><i class="lni-google-plus"></i></a></li>
-              </ul> 
-            </div>
-            <div class="col-lg-3 col-md-6 col-sm-6 col-xs-6 col-mb-12">
-              <div class="widget">
-                <h3 class="block-title">Acesso rápido</h3>
-                <ul class="menu">
-                  <li><a href="#">Home</a></li>
-                  <li><a href="#">Perfil</a></li>
-                  <li><a href="#">Sobre nós</a></li>
-                  <li><a href="#">Principais livros</a></li>
-                  <li><a href="#">Contato</a></li>
-                </ul>
-              </div>
-            </div>
-            <div class="col-lg-3 col-md-6 col-sm-6 col-xs-6 col-mb-12">
-              <div class="widget">
-                <h3 class="block-title">Entre em contato</h3>
-                <ul class="contact-footer">
-                  <li>
-                    <strong>Endereço :</strong> <span>Cristóvão Colombo, 545 - Bairro Floresta | Porto Alegre - RS</span>
-                  </li>
-                  <li>
-                    <strong>Telefone :</strong> <span>(51) 99999-9999</span>
-                  </li>
-                  <li>
-                    <strong>E-mail :</strong> <span><a href="#">contato@paulindos.com</a></span>
-                  </li>
-                </ul> 
-              </div>
-            </div>
-          </div>
-        </div>
-      </section>
-      <!-- Footer area End -->
-      
-      <!-- Copyright Start  -->
-      <div id="copyright">
-        <div class="container">
-          <div class="row">
-            <div class="col-md-12">
-              <div class="site-info float-left">
-                <p>Desenvolvido por <a href="https://github.com/senacrs-emti/2022-3M-biblioteca" rel="nofollow">Equipe Paulindos</a></p>
-              </div>              
-            </div>
-          </div>
-        </div>
-      </div>
-      <!-- Copyright End -->
-
-    </footer>
-    <!-- Footer Section End --> 
+    <include src="includes/footer.php"></include>
 
     <!-- Go To Top Link -->
     <a href="#" class="back-to-top">
@@ -244,6 +105,8 @@
         <div class="double-bounce2"></div>
       </div>
     </div>    
+
+    <script src="https://unpkg.com/htmlincludejs"></script>
 
     <!-- jQuery first, then Tether, then Bootstrap JS. -->
     <script src="js/jquery-min.js"></script>
