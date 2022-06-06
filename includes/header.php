@@ -9,7 +9,7 @@
         <div class="collapse navbar-collapse" id="navbarCollapse">
         <ul class="navbar-nav mr-auto w-100 justify-content-end">
             <li class="nav-item">
-            <a class="nav-link page-scroll" href="#slider-area">Home</a>
+            <a class="nav-link page-scroll" href="index.php">Home</a>
             </li>
             <li class="nav-item">
             <a class="nav-link page-scroll" href="#perfil">Perfil</a>
@@ -34,7 +34,7 @@
             <h3 class="wow fadeInDown" data-wow-delay="0.3s">Nossa Principal Categoria</h3>
             <h2 class="wow fadeInRight" data-wow-delay="0.6s">Recomendados Senac</h2> 
             <h4 class="wow fadeInUp" data-wow-delay="0.6s">Livros clássicos, best-sallers e mais</h4>
-            <a href="#" class="btn btn-lg btn-border wow fadeInUp" data-wow-delay="0.9s">Clique e explore</a>
+            <a href="pagina-tudo.php" class="btn btn-lg btn-border wow fadeInUp" data-wow-delay="0.9s">Clique e explore</a>
             </div>
         </div>
         <div class="carousel-item">
@@ -52,7 +52,7 @@
             <h3 class="wow fadeInDown" data-wow-delay="0.3s">Descubra</h3>
             <h2 class="wow fadeInRight" data-wow-delay="0.6s">Quem Somos</h2> 
             <h4 class="wow fadeInUp" data-wow-delay="0.6s">Alunos, desenvolvedores, leitores</h4>
-            <a href="#" class="btn btn-lg btn-border wow fadeInUp" data-wow-delay="0.9s">Saiba Mais</a>
+            <a href="quemsomos.php" class="btn btn-lg btn-border wow fadeInUp" data-wow-delay="0.9s">Saiba Mais</a>
             </div>
         </div>
         </div>

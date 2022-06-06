@@ -27,26 +27,60 @@
   <body>
 
     <!-- Abaixo o include do header -->
-    <include src="includes/header.php"></include>
+    <include src="includes/header2.php"></include>
 
-    <!-- Aqui vão ficar os códigos do "meio" da página -->
-    
-  <h1> Livros </h1>
+  <!-- alinhamento --> 
+  <br>
+  <br>
+  <br>
+  <!-- filtro e barra de pesquisa -->
+  <div class="row justify-content-md-center">
+    <form class="form-inline my-2 my-lg-0">
+      <input class="form-control mr-sm-2" type="search" placeholder="Pesquisar" aria-label="Pesquisar">
+      <button class="btn btn-rm btn-common fadeInUp" type="submit">Pesquisar</button>
+    </form>
 
+  </div>
 
-  <div class="feature col">
-        <div class="feature-icon d-inline-flex align-items-center justify-content-center bg-primary bg-gradient text-white fs-2 mb-3">
-          <svg class="bi" width="1em" height="1em"><use xlink:href="#collection"></use></svg>
-        </div>
-        <IMG class="livro" src="https://images-na.ssl-images-amazon.com/images/I/31NpLjHHQsL._SY498_BO1,204,203,200_.jpg">
-        <h2>Titulo</h2>
-        <p> Descrição </p>
-        <a href="#" class="icon-link d-inline-flex align-items-center">
-          Mais sobre o livro
-          <svg class="bi" width="1em" height="1em"><use xlink:href="#chevron-right"></use></svg>
-        </a>
+  <h1>Nome da categoria</h1>
+  
+  <div class='row justify-content-around'>
+    <div class="col-" style="width: 18rem;">
+      <img src="https://images-na.ssl-images-amazon.com/images/I/31NpLjHHQsL._SY498_BO1,204,203,200_.jpg" class="card-img-top" alt="Capa do livro">
+      <div class="card-body">
+        <h5 class="card-title">Título</h5>
+        <p class="card-text">Descrição do livro</p>
+        <a href="#" class="btn btn-lg btn-common wow fadeInUp">Mais sobre o livro</a>
       </div>
+    </div>
 
+    <div class="col-" style="width: 18rem;">
+      <img src="https://images-na.ssl-images-amazon.com/images/I/31NpLjHHQsL._SY498_BO1,204,203,200_.jpg" class="card-img-top" alt="Capa do livro">
+      <div class="card-body">
+        <h5 class="card-title">Título</h5>
+        <p class="card-text">Descrição do livro</p>
+        <a href="#" class="btn btn-lg btn-common wow fadeInUp">Mais sobre o livro</a>
+      </div>
+    </div>
+
+    <div class="col-" style="width: 18rem;">
+      <img src="https://images-na.ssl-images-amazon.com/images/I/31NpLjHHQsL._SY498_BO1,204,203,200_.jpg" class="card-img-top" alt="Capa do livro">
+      <div class="card-body">
+        <h5 class="card-title">Título</h5>
+        <p class="card-text">Descrição do livro</p>
+        <a href="#" class="btn btn-lg btn-common wow fadeInUp">Mais sobre o livro</a>
+      </div>
+    </div>
+
+    <div class="col-" style="width: 18rem;">
+      <img src="https://images-na.ssl-images-amazon.com/images/I/31NpLjHHQsL._SY498_BO1,204,203,200_.jpg" class="card-img-top" alt="Capa do livro">
+      <div class="card-body">
+        <h5 class="card-title">Título</h5>
+        <p class="card-text">Descrição do livro</p>
+        <a href="#" class="btn btn-lg btn-common wow fadeInUp">Mais sobre o livro</a>
+      </div>
+    </div>
+  </div>
 
     <!-- Abaixo é o include do footer -->
     <include src="includes/footer.php"></include>
