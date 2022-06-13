@@ -44,62 +44,24 @@
             <div class="row">
                 <div class="col-lg-3 col-md-6">
                     <div class="member">
-                        <img src="https://www.markuptag.com/images/user-img-3.jpg" class="img-fluid" alt="" />
+                        <img src="img/inacio.jpeg" class="img-fluid" alt="" />
                         <div class="member-info">
                             <div class="member-detail">
-                                <h4>Manish Kumar</h4>
-                                <span>Web Designer</span>
+                                <span>Inácio de Moraes</span>
                             </div>
                         </div>
                     </div>
                 </div>
-
-                <div class="col-lg-3 col-md-6">
-                    <div class="member">
-                        <img src="https://www.markuptag.com/images/user-img-3.jpg" class="img-fluid" alt="" />
-                        <div class="member-info">
-                            <div class="member-detail">
-                                <h4>Manish Kumar</h4>
-                                <span>Web Designer</span>
-                            </div>
-                        </div>
-                    </div>
+                <div class="col-lg-9 col-md-6 col-sm-6 col-xs-6 col-mb-12">
+                    <h3>Back-end</h3>
+                    <div class="textwidget">
+                    <p>Texto falando um pouquinho sobre o que essa pessoa faz no projeto.</p>
                 </div>
-
-                <div class="col-lg-3 col-md-6">
-                    <div class="member">
-                        <img src="https://www.markuptag.com/images/user-img-3.jpg" class="img-fluid" alt="" />
-                        <div class="member-info">
-                            <div class="member-detail">
-                                <h4>Manish Kumar</h4>
-                                <span>Web Designer</span>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="col-lg-3 col-md-6">
-                    <div class="member">
-                        <img src="https://www.markuptag.com/images/user-img-3.jpg" class="img-fluid" alt="" />
-                        <div class="member-info">
-                            <div class="member-detail">
-                                <h4>Manish Kumar</h4>
-                                <span>Web Designer</span>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="col-lg-3 col-md-6">
-                    <div class="member">
-                        <img src="https://www.markuptag.com/images/user-img-3.jpg" class="img-fluid" alt="" />
-                        <div class="member-info">
-                            <div class="member-detail">
-                                <h4>Manish Kumar</h4>
-                                <span>Web Designer</span>
-                            </div>
-                        </div>
-                    </div>
+                    <ul class="footer-social">
+                    <li><a class="facebook" href="#"><i class="lni-facebook-filled"></i></a></li>
+                    <li><a class="twitter" href="#"><i class="lni-twitter-filled"></i></a></li>
+                    <li><a class="google-plus" href="#"><i class="lni-instagram-filled"></i></a></li>
+                    </ul> 
                 </div>
             </div>
             <hr class="mt-5">
