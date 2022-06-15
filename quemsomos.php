@@ -36,12 +36,56 @@
         <div class="container">
             <div class="row">
                 <div class="col-12">
-                    <h5>Sobre nós</h5>
+                    <h1>Sobre nós</h1>
                     <p>Somos alunos do <a href="https://www.senacrs.com.br/unidade/84">Ensino Médio Senac Distrito Criativo</a> e este site faz parte do nosso projeto WebTotal, do curso técnico de informática para internet integrado ao ensino médio. Formamos uma equipe de 5 integrantes:</p><br>
                 </div>
             </div>
             <hr class="mb-5 mt-4">
             <div class="row">
+                <div class="col-lg-3 col-md-6">
+                    <div class="member">
+                        <img src="img/patricia.jpeg" class="img-fluid" alt="" />
+                        <div class="member-info">
+                            <div class="member-detail">
+                                <span>Patrícia Marcante</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-9 col-md-6 col-sm-6 col-xs-6 col-mb-12">
+                    <h3>Scrum Master</h3>
+                    <div class="textwidget">
+                    <p>Líder da equipe, responsável pela organização e garantia da execução do projeto.</p>
+                </div>
+                    <ul class="footer-social">
+                    <li><a class="facebook" href="#"><i class="lni-facebook-filled"></i></a></li>
+                    <li><a class="twitter" href="#"><i class="lni-twitter-filled"></i></a></li>
+                    <li><a class="google-plus" href="https://www.instagram.com/patimarcante_25/"><i class="lni-instagram-filled"></i></a></li>
+                    </ul> 
+                </div>
+
+                <div class="col-lg-3 col-md-6">
+                    <div class="member">
+                        <img src="img/alicia.png" class="img-fluid" alt="" />
+                        <div class="member-info">
+                            <div class="member-detail">
+                                <span>Alicia Bicca</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-9 col-md-6 col-sm-6 col-xs-6 col-mb-12">
+                    <h3>Front-end</h3>
+                    <div class="textwidget">
+                    <p>Desenvolvedora front-end responsável pela estética e aparência do site.</p>
+                </div>
+                    <ul class="footer-social">
+                    <li><a class="facebook" href="#"><i class="lni-facebook-filled"></i></a></li>
+                    <li><a class="twitter" href="#"><i class="lni-twitter-filled"></i></a></li>
+                    <li><a class="google-plus" href="https://www.instagram.com/xacbxs/"><i class="lni-instagram-filled"></i></a></li>
+                    </ul> 
+                </div>
+
                 <div class="col-lg-3 col-md-6">
                     <div class="member">
                         <img src="img/inacio.jpeg" class="img-fluid" alt="" />
@@ -55,9 +99,31 @@
                 <div class="col-lg-9 col-md-6 col-sm-6 col-xs-6 col-mb-12">
                     <h3>Back-end</h3>
                     <div class="textwidget">
-                    <p>Texto falando um pouquinho sobre o que essa pessoa faz no projeto.</p>
+                    <p>Desenvolvedor back-end responsável pela usabilidade do site.</p>
                 </div>
                     <ul class="footer-social">
+                    <li><a class="facebook" href="#"><i class="lni-facebook-filled"></i></a></li>
+                    <li><a class="twitter" href="#"><i class="lni-twitter-filled"></i></a></li>
+                    <li><a class="google-plus" href="https://www.instagram.com/iam_inacio/"><i class="lni-instagram-filled"></i></a></li>
+                    </ul> 
+                </div>
+
+                <div class="col-lg-3 col-md-6">
+                    <div class="member">
+                        <img src="img/paulo.jpeg" class="img-fluid" alt="" />
+                        <div class="member-info">
+                            <div class="member-detail">
+                                <span>Paulo Soares</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-9 col-md-6 col-sm-6 col-xs-6 col-mb-12">
+                    <h3>DBA</h3>
+                    <div class="textwidget">
+                    <p>Desenvolvedor DBA responsável pela administração do banco de dados.</p>
+                </div>
+                <ul class="footer-social">
                     <li><a class="facebook" href="#"><i class="lni-facebook-filled"></i></a></li>
                     <li><a class="twitter" href="#"><i class="lni-twitter-filled"></i></a></li>
                     <li><a class="google-plus" href="#"><i class="lni-instagram-filled"></i></a></li>
