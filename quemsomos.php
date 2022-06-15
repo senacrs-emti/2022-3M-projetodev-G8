@@ -37,7 +37,8 @@
             <div class="row">
                 <div class="col-12">
                     <h1>Sobre nós</h1>
-                    <p>Somos alunos do <a href="https://www.senacrs.com.br/unidade/84">Ensino Médio Senac Distrito Criativo</a> e este site faz parte do nosso projeto WebTotal, do curso técnico de informática para internet integrado ao ensino médio. Formamos uma equipe de 5 integrantes:</p><br>
+                    <p>Somos alunos do <a href="https://instagram.com/terceirao_senac_22?igshid=YmMyMTA2M2Y=">Ensino Médio Senac Distrito Criativo</a> e este site faz parte do nosso projeto WebTotal, do curso técnico de informática para internet integrado ao ensino médio. Temos como missão, simplificar e melhorar a qualidade de vida dos estudantes do Senac de Ensino Médio Distrito Criativo, propondo livros de leitura obrigatório e também livros voltados para o lazer.</p>
+                    <p>Formamos uma equipe de 4 integrantes:</p><br>
                 </div>
             </div>
             <hr class="mb-5 mt-4">
@@ -110,7 +111,7 @@
 
                 <div class="col-lg-3 col-md-6">
                     <div class="member">
-                        <img src="img/paulo.jpeg" class="img-fluid" alt="" />
+                        <img src="img/paulo.png" class="img-fluid" alt="" />
                         <div class="member-info">
                             <div class="member-detail">
                                 <span>Paulo Soares</span>
@@ -126,7 +127,7 @@
                 <ul class="footer-social">
                     <li><a class="facebook" href="#"><i class="lni-facebook-filled"></i></a></li>
                     <li><a class="twitter" href="#"><i class="lni-twitter-filled"></i></a></li>
-                    <li><a class="google-plus" href="#"><i class="lni-instagram-filled"></i></a></li>
+                    <li><a class="google-plus" href="https://www.instagram.com/pauloestevan_/"><i class="lni-instagram-filled"></i></a></li>
                     </ul> 
                 </div>
             </div>

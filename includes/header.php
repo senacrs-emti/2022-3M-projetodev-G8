@@ -43,7 +43,7 @@
             <h3 class="wow fadeInDown" data-wow-delay="0.3s">IMPORTANTE</h3>
             <h2 class="wow fadeInRight" data-wow-delay="0.6s">Regras e Avisos</h2> 
             <h4 class="wow fadeInUp" data-wow-delay="0.6s">Saiba as regras para alugar um livro</h4>
-            <a href="#" class="btn btn-lg btn-border wow fadeInUp" data-wow-delay="0.9s">Clique aqui</a>
+            <a href="regrasavisos.php" class="btn btn-lg btn-border wow fadeInUp" data-wow-delay="0.9s">Clique aqui</a>
             </div>
         </div>
         <div class="carousel-item">

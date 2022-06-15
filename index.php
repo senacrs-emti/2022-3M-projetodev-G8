@@ -71,14 +71,10 @@
             </a>
           </div>
         </div>
-        <!-- Split dropend button -->
-        <div class="btn-group">
-          <button type="button" class="btn btn-lg btn-common btn-effect wow fadeInUp" data-toggle="dropdown" aria-expanded="false">Mais categorias </button>
-          <ul class="dropdown-menu" role="menu">
-            <li><a href="#">Categoria1</a></li>
-            <li><a href="#">Categoria2</a></li>
-            <li><a href="#">Categoria3</a></li>
-          </ul>
+        
+        <!-- Botão p/ pagina tudo -->
+        <div class="btn">
+          <a href="pagina-tudo.php" class="btn btn-lg btn-common btn-effect wow fadeInUp" role="button" aria-pressed="false">Mais Livros</a>
         </div>
             
         <script src='http://code.jquery.com/jquery-2.1.3.min.js'></script>

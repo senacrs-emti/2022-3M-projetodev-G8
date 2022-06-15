@@ -24,11 +24,11 @@
             <div class="widget">
             <h3 class="block-title">Acesso rápido</h3>
             <ul class="menu">
-                <li><a href="#">Home</a></li>
+                <li><a href="index.php">Home</a></li>
                 <li><a href="#">Perfil</a></li>
-                <li><a href="#">Sobre nós</a></li>
-                <li><a href="#">Principais livros</a></li>
-                <li><a href="#">Contato</a></li>
+                <li><a href="quemsomos.php">Sobre nós</a></li>
+                <li><a href="pagina-tudo.php">Principais livros</a></li>
+                <li><a href="regrasavisos.php">Regras e Avisos</a></li>
             </ul>
             </div>
         </div>

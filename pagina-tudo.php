@@ -33,54 +33,58 @@
   <br>
   <br>
   <br>
+  <br>
   <!-- filtro e barra de pesquisa -->
   <div class="row justify-content-md-center">
     <form class="form-inline my-2 my-lg-0">
       <input class="form-control mr-sm-2" type="search" placeholder="Pesquisar" aria-label="Pesquisar">
       <button class="btn btn-rm btn-common fadeInUp" type="submit">Pesquisar</button>
     </form>
-
   </div>
-
-  <h1>Nome da categoria</h1>
   
-  <div class='row justify-content-around'>
-    <div class="col-" style="width: 18rem;">
-      <img src="https://images-na.ssl-images-amazon.com/images/I/31NpLjHHQsL._SY498_BO1,204,203,200_.jpg" class="card-img-top" alt="Capa do livro">
-      <div class="card-body">
-        <h5 class="card-title">Título</h5>
-        <p class="card-text">Descrição do livro</p>
-        <a href="#" class="btn btn-lg btn-common wow fadeInUp">Mais sobre o livro</a>
+  <!-- ANOTAÇÕES: excluir botões e tornar imagem/bloco clicável -->
+  <section class="produtos">
+    <h3>Nome da categoria</h3>
+    <br>
+    <div class='row justify-content-around'>
+      <div class="col-" style="width: 18rem;">
+        <img src="https://images-na.ssl-images-amazon.com/images/I/31NpLjHHQsL._SY498_BO1,204,203,200_.jpg" class="card-img-top" alt="Capa do livro">
+        <div class="card-body">
+          <h5 class="card-title">Título</h5>
+          <p class="card-text">Descrição do livro</p>
+          <a href="#" class="btn-2 btn-lg btn-product wow fadeInUp">Mais sobre o livro</a>
+        </div>
       </div>
-    </div>
 
-    <div class="col-" style="width: 18rem;">
-      <img src="https://images-na.ssl-images-amazon.com/images/I/31NpLjHHQsL._SY498_BO1,204,203,200_.jpg" class="card-img-top" alt="Capa do livro">
-      <div class="card-body">
-        <h5 class="card-title">Título</h5>
-        <p class="card-text">Descrição do livro</p>
-        <a href="#" class="btn btn-lg btn-common wow fadeInUp">Mais sobre o livro</a>
+      <div class="col-" style="width: 18rem;">
+        <img src="https://images-na.ssl-images-amazon.com/images/I/31NpLjHHQsL._SY498_BO1,204,203,200_.jpg" class="card-img-top" alt="Capa do livro">
+        <div class="card-body">
+          <h5 class="card-title">Título</h5>
+          <p class="card-text">Descrição do livro</p>
+          <a href="#" class="btn-2 btn-lg btn-product wow fadeInUp">Mais sobre o livro</a>
+        </div>
       </div>
-    </div>
 
-    <div class="col-" style="width: 18rem;">
-      <img src="https://images-na.ssl-images-amazon.com/images/I/31NpLjHHQsL._SY498_BO1,204,203,200_.jpg" class="card-img-top" alt="Capa do livro">
-      <div class="card-body">
-        <h5 class="card-title">Título</h5>
-        <p class="card-text">Descrição do livro</p>
-        <a href="#" class="btn btn-lg btn-common wow fadeInUp">Mais sobre o livro</a>
+      <div class="col-" style="width: 18rem;">
+        <img src="https://images-na.ssl-images-amazon.com/images/I/31NpLjHHQsL._SY498_BO1,204,203,200_.jpg" class="card-img-top" alt="Capa do livro">
+        <div class="card-body">
+          <h5 class="card-title">Título</h5>
+          <p class="card-text">Descrição do livro</p>
+          <a href="#" class="btn-2 btn-lg btn-product wow fadeInUp">Mais sobre o livro</a>
+        </div>
       </div>
-    </div>
 
-    <div class="col-" style="width: 18rem;">
-      <img src="https://images-na.ssl-images-amazon.com/images/I/31NpLjHHQsL._SY498_BO1,204,203,200_.jpg" class="card-img-top" alt="Capa do livro">
-      <div class="card-body">
-        <h5 class="card-title">Título</h5>
-        <p class="card-text">Descrição do livro</p>
-        <a href="#" class="btn btn-lg btn-common wow fadeInUp">Mais sobre o livro</a>
+      <div class="col-" style="width: 18rem;">
+        <img src="https://images-na.ssl-images-amazon.com/images/I/31NpLjHHQsL._SY498_BO1,204,203,200_.jpg" class="card-img-top" alt="Capa do livro">
+        <div class="card-body">
+          <h5 class="card-title">Título</h5>
+          <p class="card-text">Descrição do livro</p>
+          <a href="#" class="btn-2 btn-lg btn-product wow fadeInUp">Mais sobre o livro</a>
+        </div>
       </div>
+      
     </div>
-  </div>
+  </section>
 
     <!-- Abaixo é o include do footer -->
     <include src="includes/footer.php"></include>
