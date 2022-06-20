@@ -2149,13 +2149,36 @@ textarea {
   overflow: hidden;
 }
 
+.descricao {
+  display: block;
+  float: left;
+  width: auto;
+  height: auto;
+}
+
+.sobrelivro {
+  float: left;
+}
+
+.alugado {
+  text-align: center;
+  height: auto;
+  line-height: 100px;
+}
+
+.imgproduto {
+  float: left;
+  width: 380px;
+  height: 380px;
+}
+
 .text-danger {
   font-size: 14px;
   margin-top: 10px;
 }
 
-.list-unstyled li {
-  color: #d9534f;
+.list-unstyled {
+  color: #212121;
 }
 
 /* Contact Map */

@@ -14,10 +14,8 @@
                 voltados para o lazer.</p>
             </div>
             <ul class="footer-social">
-            <li><a class="facebook" href="#"><i class="lni-facebook-filled"></i></a></li>
-            <li><a class="twitter" href="#"><i class="lni-twitter-filled"></i></a></li>
-            <li><a class="linkedin" href="#"><i class="lni-linkedin-fill"></i></a></li>
-            <li><a class="google-plus" href="#"><i class="lni-google-plus"></i></a></li>
+            <li><a class="facebook" href="https://github.com/senacrs-emti/2022-3M-biblioteca"><i class="lni-github"></i></a></li>
+            <li><a class="google-plus" href="#"><i class="lni-instagram"></i></a></li>
             </ul> 
         </div>
         <div class="col-lg-3 col-md-6 col-sm-6 col-xs-6 col-mb-12">
@@ -25,7 +23,6 @@
             <h3 class="block-title">Acesso rápido</h3>
             <ul class="menu">
                 <li><a href="index.php">Home</a></li>
-                <li><a href="#">Perfil</a></li>
                 <li><a href="quemsomos.php">Sobre nós</a></li>
                 <li><a href="pagina-tudo.php">Principais livros</a></li>
                 <li><a href="regrasavisos.php">Regras e Avisos</a></li>

@@ -25,48 +25,21 @@
 </head>
   
 <body>
-
-    <include src="includes/header2.php"></include>
-
-    <!-- alinhando -->
-
-    <!-- Regras Section -->
-    <section class="our-team">
-        <div class="container">
-          <h1>Regras e avisos</h1>
-          <ul class="list-unstyled">
-            <li>Aqui você encontra o regulamento de retirada, cuidados e entrega dos livros aqui da Biblioteca Senac.</li>
-            <li>1. Cuide do livro;</li>
-            <li>2. Devolva ele no mesmo estado que pegou;</li>
-            <li>3. Caso atrase, a multa é de R$1,00 por dia.(exceto fim de semana e feriados);</li>
-            <li>4. Sobre as multas:
-              <ul>
-                <li>Faltas justificadas por atestados, serão abonadas;</li>
-                <li>Caso não pague a multa, não poderá retirar mais livros;</li>
-              </ul>
-            </li>
-            <li>5. Perda do livro/Dano: Pague o valor do livro ou compre o mesmo e entregue para a biblioteca;</li>
-            <li>6. Livros retirados simultaneamente: 1 por categoria;</li>
-            <li>7. Tempo com CADA livro: 1 semana.</li>
-          </ul>
-        </div>
-    </section>
-    <!-- End Our Team Section -->
-
-
-    <include src="includes/footer.php"></include>
-
-<!-- Go To Top Link -->
-<a href="#" class="back-to-top">
-  <i class="lni-arrow-up"></i>
-</a>
-
-<div id="loader">
-  <div class="spinner">
-    <div class="double-bounce1"></div>
-    <div class="double-bounce2"></div>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+  <div class="alugado">
+    <h5>Seu livro foi alugado com sucesso, retire-o na biblioteca da escola.<h5>
+    <h1>Obrigado!</h1>
+    <a href="index.php">Voltar à home</a>
   </div>
-</div>    
 
 <script src="https://unpkg.com/htmlincludejs"></script>
 

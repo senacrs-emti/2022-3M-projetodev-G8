@@ -38,7 +38,7 @@
                 <div class="col-12">
                     <h1>Sobre nós</h1>
                     <p>Somos alunos do <a href="https://instagram.com/terceirao_senac_22?igshid=YmMyMTA2M2Y=">Ensino Médio Senac Distrito Criativo</a> e este site faz parte do nosso projeto WebTotal, do curso técnico de informática para internet integrado ao ensino médio. Temos como missão, simplificar e melhorar a qualidade de vida dos estudantes do Senac de Ensino Médio Distrito Criativo, propondo livros de leitura obrigatório e também livros voltados para o lazer.</p>
-                    <p>Formamos uma equipe de 4 integrantes:</p><br>
+                    <p>Formamos uma equipe de 3 integrantes:</p><br>
                 </div>
             </div>
             <hr class="mb-5 mt-4">
@@ -54,36 +54,13 @@
                     </div>
                 </div>
                 <div class="col-lg-9 col-md-6 col-sm-6 col-xs-6 col-mb-12">
-                    <h3>Scrum Master</h3>
+                    <h3>Scrum Master e Infra</h3>
                     <div class="textwidget">
-                    <p>Líder da equipe, responsável pela organização e garantia da execução do projeto.</p>
+                    <p>Líder da equipe, responsável pela organização e garantia da execução do projeto, e infraestrutura para hospedagem do site.</p>
                 </div>
                     <ul class="footer-social">
-                    <li><a class="facebook" href="#"><i class="lni-facebook-filled"></i></a></li>
-                    <li><a class="twitter" href="#"><i class="lni-twitter-filled"></i></a></li>
+                    <li><a class="facebook" href="#"><i class="lni-github"></i></a></li>
                     <li><a class="google-plus" href="https://www.instagram.com/patimarcante_25/"><i class="lni-instagram-filled"></i></a></li>
-                    </ul> 
-                </div>
-
-                <div class="col-lg-3 col-md-6">
-                    <div class="member">
-                        <img src="img/alicia.png" class="img-fluid" alt="" />
-                        <div class="member-info">
-                            <div class="member-detail">
-                                <span>Alicia Bicca</span>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-9 col-md-6 col-sm-6 col-xs-6 col-mb-12">
-                    <h3>Front-end</h3>
-                    <div class="textwidget">
-                    <p>Desenvolvedora front-end responsável pela estética e aparência do site.</p>
-                </div>
-                    <ul class="footer-social">
-                    <li><a class="facebook" href="#"><i class="lni-facebook-filled"></i></a></li>
-                    <li><a class="twitter" href="#"><i class="lni-twitter-filled"></i></a></li>
-                    <li><a class="google-plus" href="https://www.instagram.com/xacbxs/"><i class="lni-instagram-filled"></i></a></li>
                     </ul> 
                 </div>
 
@@ -98,13 +75,12 @@
                     </div>
                 </div>
                 <div class="col-lg-9 col-md-6 col-sm-6 col-xs-6 col-mb-12">
-                    <h3>Back-end</h3>
+                    <h3>Front-end e Back-end</h3>
                     <div class="textwidget">
-                    <p>Desenvolvedor back-end responsável pela usabilidade do site.</p>
+                    <p>Desenvolvedor fullstack responsável pelo visual e usabilidade do site.</p>
                 </div>
                     <ul class="footer-social">
-                    <li><a class="facebook" href="#"><i class="lni-facebook-filled"></i></a></li>
-                    <li><a class="twitter" href="#"><i class="lni-twitter-filled"></i></a></li>
+                    <li><a class="facebook" href="https://github.com/Ino-Codes"><i class="lni-github"></i></a></li>
                     <li><a class="google-plus" href="https://www.instagram.com/iam_inacio/"><i class="lni-instagram-filled"></i></a></li>
                     </ul> 
                 </div>
@@ -125,8 +101,7 @@
                     <p>Desenvolvedor DBA responsável pela administração do banco de dados.</p>
                 </div>
                 <ul class="footer-social">
-                    <li><a class="facebook" href="#"><i class="lni-facebook-filled"></i></a></li>
-                    <li><a class="twitter" href="#"><i class="lni-twitter-filled"></i></a></li>
+                <li><a class="facebook" href="#"><i class="lni-github"></i></a></li>
                     <li><a class="google-plus" href="https://www.instagram.com/pauloestevan_/"><i class="lni-instagram-filled"></i></a></li>
                     </ul> 
                 </div>

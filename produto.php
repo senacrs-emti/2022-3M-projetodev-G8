@@ -26,33 +26,43 @@
   
 <body>
 
-    <include src="includes/header2.php"></include>
+  <include src="includes/header2.php"></include>
 
-    <!-- alinhando -->
-
-    <!-- Regras Section -->
-    <section class="our-team">
-        <div class="container">
-          <h1>Regras e avisos</h1>
-          <ul class="list-unstyled">
-            <li>Aqui você encontra o regulamento de retirada, cuidados e entrega dos livros aqui da Biblioteca Senac.</li>
-            <li>1. Cuide do livro;</li>
-            <li>2. Devolva ele no mesmo estado que pegou;</li>
-            <li>3. Caso atrase, a multa é de R$1,00 por dia.(exceto fim de semana e feriados);</li>
-            <li>4. Sobre as multas:
-              <ul>
-                <li>Faltas justificadas por atestados, serão abonadas;</li>
-                <li>Caso não pague a multa, não poderá retirar mais livros;</li>
-              </ul>
-            </li>
-            <li>5. Perda do livro/Dano: Pague o valor do livro ou compre o mesmo e entregue para a biblioteca;</li>
-            <li>6. Livros retirados simultaneamente: 1 por categoria;</li>
-            <li>7. Tempo com CADA livro: 1 semana.</li>
-          </ul>
+  <!-- alinhando -->
+  <section class="our-team">
+    <div class="container">
+      <div class="row">
+        <div class="col-12">
+          <h1></h1>
         </div>
-    </section>
-    <!-- End Our Team Section -->
+        <div class="col-4">
+          <img class="imgproduto" src="https://images-na.ssl-images-amazon.com/images/I/31NpLjHHQsL._SY498_BO1,204,203,200_.jpg">
+        </div>
+        
+        <div class="sobrelivro col-5">
+        <h5>Título do Livro</h5>
+        <p>Autor</p>
+          <div class="descricao">
+            <p>Aqui fica a descrição do livro. Mais sobre
+              essa descrição muito bem descrita. Blábláblá.
+            </p>
+          </div>
+        </div>
 
+        <div class="col-3" id="produto3">
+        <nbsp></nbsp>
+          <div class="row justify-content-md-center">
+            <form class="form-inline my-2 my-lg-0">
+              <p>Dados necessários para efetuar o aluguel do livro:</p>
+              <input class="form-control mr-sm-2" type="text" placeholder="Nome Completo" aria-label="Nome Completo">
+              <input class="form-control mr-sm-2" type="text" onkeypress="return event.charCode >= 48 && event.charCode <= 57" placeholder="CPF" aria-label="CPF"> placeholder="CPF" aria-label="CPF">
+              <a href="alugado.php" class="btn btn-lg btn-common btn-effect wow fadeInUp" role="button" aria-pressed="false">Alugar</a>
+            </form>
+          </div>
+        </div>               
+      </div>
+    </div>
+  </section>
 
     <include src="includes/footer.php"></include>
 

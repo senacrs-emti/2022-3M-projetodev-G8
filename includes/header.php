@@ -11,9 +11,6 @@
             <li class="nav-item">
             <a class="nav-link page-scroll" href="index.php">Home</a>
             </li>
-            <li class="nav-item">
-            <a class="nav-link page-scroll" href="#perfil">Perfil</a>
-            </li>
         </ul>              
         </div>
     </div>
@@ -33,7 +30,7 @@
             <div class="carousel-caption text-center">
             <h3 class="wow fadeInDown" data-wow-delay="0.3s">Nossa Principal Categoria</h3>
             <h2 class="wow fadeInRight" data-wow-delay="0.6s">Recomendados Senac</h2> 
-            <h4 class="wow fadeInUp" data-wow-delay="0.6s">Livros clássicos, best-sallers e mais</h4>
+            <h4 class="wow fadeInUp" data-wow-delay="0.6s">Livros clássicos, best-sellers e mais</h4>
             <a href="pagina-tudo.php" class="btn btn-lg btn-border wow fadeInUp" data-wow-delay="0.9s">Clique e explore</a>
             </div>
         </div>

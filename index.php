@@ -38,7 +38,7 @@
         </div>
         <div class="row">
           <div class="col-lg-4 col-md-6 col-xs-12">
-            <a href="#">
+            <a href="pagina-tudo.php">
               <div class="item-boxes services-item wow fadeInDown" data-wow-delay="0.2s">
                 <div class="icon color-1">
                   <i class="lni-pencil"></i>
@@ -49,7 +49,7 @@
             </a>
           </div>
           <div class="col-lg-4 col-md-6 col-xs-12">
-            <a href="#">
+            <a href="pagina-tudo.php">
               <div class="item-boxes services-item wow fadeInDown" data-wow-delay="0.4s">
                 <div class="icon color-4">
                   <i class="lni-graduation"></i>
@@ -60,7 +60,7 @@
             </a>
           </div>
           <div class="col-lg-4 col-md-6 col-xs-12">
-            <a href="#">
+            <a href="pagina-tudo.php">
               <div class="item-boxes services-item wow fadeInDown" data-wow-delay="0.6s">
                 <div class="icon color-2">
                   <i class="lni-crown"></i>
@@ -86,11 +86,11 @@
         </script>
       </div>
     </section>
-    <!-- Services Section End -->
+    <!-- Fim da seção de lista -->
     
     <include src="includes/footer.php"></include>
 
-    <!-- Go To Top Link -->
+    <!-- Botão p/ voltar ao topo -->
     <a href="#" class="back-to-top">
       <i class="lni-arrow-up"></i>
     </a>
