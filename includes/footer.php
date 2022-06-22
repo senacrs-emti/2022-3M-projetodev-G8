@@ -15,7 +15,7 @@
             </div>
             <ul class="footer-social">
             <li><a class="facebook" href="https://github.com/senacrs-emti/2022-3M-biblioteca"><i class="lni-github"></i></a></li>
-            <li><a class="google-plus" href="#"><i class="lni-instagram"></i></a></li>
+            <li><a class="google-plus" href="https://www.instagram.com/terceirao_senac_22"><i class="lni-instagram"></i></a></li>
             </ul> 
         </div>
         <div class="col-lg-3 col-md-6 col-sm-6 col-xs-6 col-mb-12">
