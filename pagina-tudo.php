@@ -39,18 +39,28 @@ include_once 'conexao.php';
   <br>
   <!-- filtro e barra de pesquisa -->
   <div class="row justify-content-md-center">
-    <form action="pagina-tudo.php" method="post" class="form-inline my-2 my-lg-0">
-      <input id="pesquisa" onkeyup ="livro()" class="form-control mr-sm-2" type="search" placeholder="Pesquisar" aria-label="Pesquisar">
+    <form method="post" class="form-inline my-2 my-lg-0">
+      <input id="pesquisa" name="pesquisa" onkeyup ="livro()" class="form-control mr-sm-2" type="search" placeholder="Pesquisar" aria-label="Pesquisar">
       <button class="btn btn-rm btn-common fadeInUp" type="submit" id="btnpesquisa">Pesquisar</button>
     </form>
   </div>
-  
+  <?php
+    
+  ?>
   <section class="produtos">
     <h3>Nossos livros</h3>
     <br>
     <div class='row justify-content-around'>
     <?php
-    $sql = "SELECT * FROM livros";
+    
+    if( empty($_REQUEST['pesquisa'] || !isset($_REQUEST['pesquisa']))){
+      $consulta = '';
+    }else{
+      $valor = $_REQUEST['pesquisa'];
+      $consulta = "WHERE Autor LIKE '%{$valor}%' OR Titulo LIKE'%{$valor}%' ";
+    }
+    $sql = "SELECT * FROM livros {$consulta};";
+    
     $res = mysqli_query($conn, $sql);
 
     // loop pelos registros
@@ -58,9 +68,9 @@ include_once 'conexao.php';
     {
     ?>
       <div class="col-" style="width: 18rem;">
-        <a href="produto.php">
+        <a href="produto.php?id=<?php echo $i['LivroID'];?>">
           <div class="item-boxes services-item wow fadeInDown" data-wow-delay="0.2s">
-            <img src="./img/livros/<?php echo $i['Foto'];?>" class="card-img-top" alt="Capa do livro">
+            <img src="livros/<?php echo $i['Foto'];?>" class="card-img-top" alt="Capa do livro">
             <h5 class="card-title"><?php echo $i['Titulo'];?></h5>
             <p class="card-text"><?php echo $i['Autor']?></p>
           </div>

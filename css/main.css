@@ -34,13 +34,19 @@ section.produtos {
   font-weight: bold;
 }
 .card-img-top {
- width: 220px;
- height: 220px;
+ width: 200px;
+ height: 260px;
 }
 .card-text {
   font-size: 18px;
   color: #9e9e9e;
   width: 70%;
+  margin: 10px auto 10px;
+}
+.card-texto {
+  font-size: 18px;
+  color: #212121;
+  width: 100%;
   margin: 10px auto 10px;
 }
 .produtos p {
@@ -1310,6 +1316,7 @@ button:focus {
 
 .item-boxes p {
   margin: 0;
+  text-align: center;
 }
 
 .item-boxes:hover {
@@ -2149,10 +2156,11 @@ textarea {
   overflow: hidden;
 }
 
-.descricao {
+.sobrelivro .descricao {
   display: block;
+  color: #212121;
   float: left;
-  width: auto;
+  width: 100%;
   height: auto;
 }
 
@@ -2168,7 +2176,7 @@ textarea {
 
 .imgproduto {
   float: left;
-  width: 380px;
+  width: 300px;
   height: 380px;
 }
 

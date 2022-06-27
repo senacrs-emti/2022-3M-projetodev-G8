@@ -25,8 +25,10 @@
 </head>
   
 <body>
-
-  <include src="includes/header2.php"></include>
+  <?php
+  include_once 'includes/header2.php';
+  include_once 'conexao.php';
+  ?>
 
   <!-- alinhando -->
   <section class="our-team">
@@ -35,31 +37,39 @@
         <div class="col-12">
           <h1></h1>
         </div>
-        <div class="col-4">
-          <img class="imgproduto" src="https://images-na.ssl-images-amazon.com/images/I/31NpLjHHQsL._SY498_BO1,204,203,200_.jpg">
-        </div>
-        
-        <div class="sobrelivro col-5">
-        <h5>Título do Livro</h5>
-        <p>Autor</p>
-          <div class="descricao">
-            <p>Aqui fica a descrição do livro. Mais sobre
-              essa descrição muito bem descrita. Blábláblá.
-            </p>
-          </div>
+
+        <?php
+        $id = $_GET['id'];
+        $sql = "SELECT * FROM livros WHERE LivroID = {$id}";
+        $res = mysqli_query($conn, $sql);
+        $i = mysqli_fetch_array($res);
+        ?>
+
+        <div class="col-7">
+          <img class="imgproduto" src="livros/<?php echo $i['Foto'];?>">
         </div>
 
-        <div class="col-3" id="produto3">
+        <div class="col-5" id="produto3">
         <nbsp></nbsp>
           <div class="row justify-content-md-center">
             <form class="form-inline my-2 my-lg-0">
-              <p>Dados necessários para efetuar o aluguel do livro:</p>
+              <p class="card-texto">Dados necessários para efetuar o aluguel do livro:</p>
               <input class="form-control mr-sm-2" type="text" placeholder="Nome Completo" aria-label="Nome Completo">
               <input class="form-control mr-sm-2" type="text" onkeypress="return event.charCode >= 48 && event.charCode <= 57" placeholder="CPF" aria-label="CPF"> placeholder="CPF" aria-label="CPF">
               <a href="alugado.php" class="btn btn-lg btn-common btn-effect wow fadeInUp" role="button" aria-pressed="false">Alugar</a>
             </form>
           </div>
-        </div>               
+        </div>
+
+        <div class="sobrelivro col-12">
+        <br>
+        <h5><?php echo $i['Titulo'];?></h5>
+        <p><?php echo $i['Autor'];?></p>
+          <div class="descricao">
+            <p><?php echo $i['Descricao'];?></p>
+          </div>
+        </div>
+
       </div>
     </div>
   </section>
