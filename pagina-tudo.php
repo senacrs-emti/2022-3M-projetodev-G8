@@ -39,8 +39,8 @@ include_once 'conexao.php';
   <br>
   <!-- filtro e barra de pesquisa -->
   <div class="row justify-content-md-center">
-    <form action="destino.php" method="post" class="form-inline my-2 my-lg-0">
-      <input class="form-control mr-sm-2" type="search" placeholder="Pesquisar" aria-label="Pesquisar">
+    <form action="pagina-tudo.php" method="post" class="form-inline my-2 my-lg-0">
+      <input id="pesquisa" onkeyup ="livro()" class="form-control mr-sm-2" type="search" placeholder="Pesquisar" aria-label="Pesquisar">
       <button class="btn btn-rm btn-common fadeInUp" type="submit" id="btnpesquisa">Pesquisar</button>
     </form>
   </div>
@@ -50,26 +50,25 @@ include_once 'conexao.php';
     <br>
     <div class='row justify-content-around'>
     <?php
-$sql = "SELECT * FROM livros";
-$res = mysqli_query($conn, $sql);
+    $sql = "SELECT * FROM livros";
+    $res = mysqli_query($conn, $sql);
 
-// loop pelos registros
-while ($f = mysqli_fetch_array($res))
-{
-?>
+    // loop pelos registros
+    while ($i = mysqli_fetch_array($res))
+    {
+    ?>
       <div class="col-" style="width: 18rem;">
         <a href="produto.php">
           <div class="item-boxes services-item wow fadeInDown" data-wow-delay="0.2s">
-            <img src="./img/livros/<?php echo $f['Foto'];?>" class="card-img-top" alt="Capa do livro">
-            <h5 class="card-title"><?php echo $f['Titulo'];?></h5>
-            <p class="card-text"><?php echo $f['Autor']?></p>
+            <img src="./img/livros/<?php echo $i['Foto'];?>" class="card-img-top" alt="Capa do livro">
+            <h5 class="card-title"><?php echo $i['Titulo'];?></h5>
+            <p class="card-text"><?php echo $i['Autor']?></p>
           </div>
         </a>
       </div>
-<?php
-}
-
-?>
+    <?php
+    }
+    ?>
 
   </section>
 
