@@ -45,11 +45,17 @@
         $i = mysqli_fetch_array($res);
         ?>
 
+        <?php
+        $sql = "SELECT * FROM categorias";
+        $res = mysqli_query($conn, $sql); 
+        $j = mysqli_fetch_array($res);
+        ?>
+
         <div class="col-7">
           <img class="imgproduto" src="livros/<?php echo $i['Foto'];?>">
         </div>
 
-        <div class="col-5" id="produto3">
+        <div class="col-5">
         <nbsp></nbsp>
           <div class="row justify-content-md-center">
             <form class="form-inline my-2 my-lg-0">
@@ -64,7 +70,8 @@
         <div class="sobrelivro col-12">
         <br>
         <h5><?php echo $i['Titulo'];?></h5>
-        <p><?php echo $i['Autor'];?></p>
+        <p class="categorialivro"><?php echo $j['Nome'];?></p>
+        <p class="autorlivro"><?php echo $i['Autor'];?></p>
           <div class="descricao">
             <p><?php echo $i['Descricao'];?></p>
           </div>

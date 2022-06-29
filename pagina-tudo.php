@@ -30,7 +30,9 @@ include_once 'conexao.php';
   <body>
 
     <!-- Abaixo o include do header -->
-    <include src="includes/header2.php"></include>
+    <?php
+      include_once 'includes/header2.php';
+    ?>
 
   <!-- alinhamento --> 
   <br>
@@ -83,8 +85,9 @@ include_once 'conexao.php';
   </section>
 
     <!-- Abaixo é o include do footer -->
-    <include src="includes/footer.php"></include>
-
+    <?php
+      include_once 'includes/footer.php';
+    ?>
     <!-- Go To Top Link -->
     <a href="#" class="back-to-top">
       <i class="lni-arrow-up"></i>

@@ -26,7 +26,9 @@
   
   <body>
     
-    <include src="includes/header.php"></include>
+  <?php
+    include_once 'includes/header.php';
+  ?>  
 
     <!-- Services Section Start -->
     <section id="services" class="section">
@@ -88,8 +90,9 @@
     </section>
     <!-- Fim da seção de lista -->
     
-    <include src="includes/footer.php"></include>
-
+    <?php
+      include_once 'includes/footer.php';
+    ?>
     <!-- Botão p/ voltar ao topo -->
     <a href="#" class="back-to-top">
       <i class="lni-arrow-up"></i>
