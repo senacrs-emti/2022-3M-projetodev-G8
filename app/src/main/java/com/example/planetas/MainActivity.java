@@ -1,4 +1,4 @@
- package com.example.planeta;
+package com.example.planetas;
 
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;

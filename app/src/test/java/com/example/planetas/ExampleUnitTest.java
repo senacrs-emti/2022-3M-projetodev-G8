@@ -1,4 +1,4 @@
-package com.example.planeta;
+package com.example.planetas;
 
 import org.junit.Test;
 

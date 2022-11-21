@@ -1,6 +1,24 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
-  <component name="ProjectRootManager">
-    <output url="file://$PROJECT_DIR$/out" />
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/xampp/htdocs/2022-3M-projetodev-G8/app/src/main/res/layout/activity_main.xml" value="0.16666666666666666" />
+        <entry key="..\:/xampp/htdocs/2022-3M-projetodev-G8/app/src/main/res/layout/planeta1.xml" value="0.16666666666666666" />
+        <entry key="..\:/xampp/htdocs/2022-3M-projetodev-G8/app/src/main/res/layout/planeta2.xml" value="0.1796875" />
+        <entry key="..\:/xampp/htdocs/2022-3M-projetodev-G8/app/src/main/res/layout/planeta3.xml" value="0.17864583333333334" />
+        <entry key="..\:/xampp/htdocs/2022-3M-projetodev-G8/app/src/main/res/layout/planeta4.xml" value="0.22" />
+        <entry key="..\:/xampp/htdocs/2022-3M-projetodev-G8/app/src/main/res/layout/planeta5.xml" value="0.22" />
+        <entry key="..\:/xampp/htdocs/2022-3M-projetodev-G8/app/src/main/res/layout/planeta6.xml" value="0.1796875" />
+        <entry key="..\:/xampp/htdocs/2022-3M-projetodev-G8/app/src/main/res/layout/planeta7.xml" value="0.17864583333333334" />
+        <entry key="..\:/xampp/htdocs/2022-3M-projetodev-G8/app/src/main/res/layout/planeta8.xml" value="0.17864583333333334" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
   </component>
 </project>

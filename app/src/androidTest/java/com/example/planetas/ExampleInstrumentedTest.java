@@ -1,4 +1,4 @@
-package com.example.planeta;
+package com.example.planetas;
 
 import android.content.Context;
 import android.support.test.InstrumentationRegistry;
@@ -20,6 +20,6 @@ public class ExampleInstrumentedTest {
     public void useAppContext() {
         // Context of the app under test.
         Context appContext = InstrumentationRegistry.getInstrumentation().getTargetContext();
-        assertEquals("com.example.planeta", appContext.getPackageName());
+        assertEquals("com.example.planetas", appContext.getPackageName());
     }
 }
