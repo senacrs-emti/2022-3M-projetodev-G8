@@ -4,20 +4,21 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="#F2000000"
+    android:background="#000000"
     tools:context=".MainActivity">
 
 
     <TextView
         android:id="@+id/textView5"
-        android:layout_width="267dp"
-        android:layout_height="68dp"
+        android:layout_width="285dp"
+        android:layout_height="129dp"
         android:backgroundTint="#000000"
-        android:text="Planetas"
+        android:text="Sistema Solar"
         android:textAlignment="center"
+        android:textAllCaps="false"
         android:textColor="#FFFFFF"
         android:textSize="48sp"
-        android:textStyle="normal"
+        android:textStyle="bold|italic"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.498"
@@ -34,7 +35,7 @@
         android:textAlignment="center"
         android:textColor="#FFFFFF"
         android:textSize="20"
-        android:textStyle="italic"
+        android:textStyle="bold|italic"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.496"
         app:layout_constraintStart_toStartOf="parent"
@@ -42,40 +43,53 @@
 
     <TextView
         android:id="@+id/textView3"
-        android:layout_width="287dp"
-        android:layout_height="245dp"
-        android:layout_marginTop="20dp"
-        android:text="TextView"
+        android:layout_width="370dp"
+        android:layout_height="74dp"
+        android:layout_marginTop="176dp"
+        android:text="O Sistema Solar é um conjunto formado por oito planetas e outros corpos celestes, que orbitam o Sol, a sua principal estrela. Ele se encontra localizado na Via Láctea, uma das bilhões de galáxias que formam o Universo."
+        android:textAlignment="center"
         android:textColor="#FFFFFF"
+        android:textIsSelectable="false"
+        android:textStyle="bold|italic"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.532"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/textView2" />
 
-    <Spinner
-        android:id="@+id/spinner1"
-        android:layout_width="194dp"
-        android:layout_height="26dp"
-        android:background="@android:drawable/btn_dropdown"
-        android:spinnerMode="dropdown"
+    <TextView
+        android:id="@+id/textView29"
+        android:layout_width="356dp"
+        android:layout_height="42dp"
+        android:layout_marginTop="12dp"
+        android:text="Nas próximas páginas vamos ver mais sobre cada um dos planetas e sua principal Estrela."
+        android:textAlignment="center"
+        android:textColor="#FFFFFF"
+        android:textIsSelectable="false"
+        android:textStyle="bold|italic"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.732"
+        app:layout_constraintHorizontal_bias="0.49"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/textView4" />
+        app:layout_constraintTop_toBottomOf="@+id/textView3" />
 
     <TextView
         android:id="@+id/textView4"
         android:layout_width="283dp"
         android:layout_height="44dp"
         android:layout_marginTop="40dp"
-        android:text="Escolha um número e ele te levará para um dos Planetas"
+        android:text="Clique no botão e aprenda sobre a principal Estrela do nosso Sistema Solar"
         android:textAlignment="viewStart"
         android:textColor="#FFFFFF"
         android:textIsSelectable="false"
         android:textStyle="normal|italic"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.528"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/textView3" />
+        app:layout_constraintTop_toBottomOf="@+id/textView29" />
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="SOL"
+        tools:layout_editor_absoluteX="257dp"
+        tools:layout_editor_absoluteY="656dp" />
 
 </android.support.constraint.ConstraintLayout>

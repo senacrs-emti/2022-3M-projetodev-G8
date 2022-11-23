@@ -1,6 +1,71 @@
 <?xml version="1.0" encoding="utf-8"?>
 <android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
-    android:layout_height="match_parent">
+    android:layout_height="match_parent"
+    android:background="#000000">
 
+    <TextView
+        android:id="@+id/textView22"
+        android:layout_width="288dp"
+        android:layout_height="41dp"
+        android:layout_marginTop="40dp"
+        android:text="Escolha um número e ele te levará para o próximo Planeta"
+        android:textAlignment="viewStart"
+        android:textColor="#FFFFFF"
+        android:textIsSelectable="false"
+        android:textStyle="normal|bold|italic"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView21" />
+
+    <Spinner
+        android:id="@+id/spinner6"
+        android:layout_width="199dp"
+        android:layout_height="18dp"
+        android:background="@android:drawable/btn_dropdown"
+        android:spinnerMode="dropdown"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.712"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView22" />
+
+    <TextView
+        android:id="@+id/textView21"
+        android:layout_width="364dp"
+        android:layout_height="123dp"
+        android:layout_marginTop="40dp"
+        android:text="O planeta Saturno é muito conhecido em razão dos seus anéis. Ele é o segundo maior em extensão territorial e é formado predominantemente por gases. Seu complexo sistema de anéis é o mais desenvolvido entre os planetas gasosos. As temperaturas em Saturno, assim como nos outros planetas gasosos, são bastante baixas. Ele possui diversos satélites naturais."
+        android:textAlignment="center"
+        android:textColor="#F5FFFFFF"
+        android:textStyle="bold|italic"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView5" />
+
+    <TextView
+        android:id="@+id/textView20"
+        android:layout_width="267dp"
+        android:layout_height="68dp"
+        android:layout_marginTop="28dp"
+        android:backgroundTint="#000000"
+        android:text="Saturno"
+        android:textAlignment="center"
+        android:textAllCaps="false"
+        android:textColor="#FFFFFF"
+        android:textSize="48sp"
+        android:textStyle="normal|bold|italic"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/imageView5"
+        android:layout_width="395"
+        android:layout_height="310"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView20"
+        app:srcCompat="@drawable/saturno" />
 </android.support.constraint.ConstraintLayout>

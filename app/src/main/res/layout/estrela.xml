@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#000000">
+
+    <TextView
+        android:id="@+id/textView31"
+        android:layout_width="370dp"
+        android:layout_height="96dp"
+        android:layout_marginTop="8dp"
+        android:text="A maior parte do Sol é composta pelos gases hélio e hidrogênio, não havendo superfícies sólidas. São, ao todo, seis camadas que formam esse astro, desde o núcleo, no seu interior, até a coroa, camada mais externa. O Sol é uma fonte primária de calor e energia, sendo de fundamental importância para a manutenção da vida no planeta Terra. "
+        android:textAlignment="center"
+        android:textColor="#F5FFFFFF"
+        android:textSize="12sp"
+        android:textStyle="bold|italic"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView32" />
+
+    <TextView
+        android:id="@+id/textView33"
+        android:layout_width="373dp"
+        android:layout_height="105dp"
+        android:layout_marginTop="1dp"
+        android:text="O Sol consiste na maior estrela do Sistema Solar, além de deter aproximadamente 99,8% da massa total desse conjunto de corpos celestes. Comparativamente à Terra, a massa do Sol, estimada em 1,98 x 1031 kg, é cerca de 333 mil vezes maior do que a do nosso planeta. Em função disso, a força de gravidade que o Sol exerce sobre outros corpos celestes é de 274 m/s². "
+        android:textAlignment="center"
+        android:textColor="#F5FFFFFF"
+        android:textSize="12sp"
+        android:textStyle="bold|italic"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView31" />
+
+    <TextView
+        android:id="@+id/textView32"
+        android:layout_width="370dp"
+        android:layout_height="75dp"
+        android:layout_marginTop="24dp"
+        android:text="O Sol é uma estrela brilhante localizada na Via Láctea a uma distância de 150 milhões de quilômetros da Terra, no centro do Sistema Solar. Embora seja milhares de vezes maior do que o nosso planeta, ela é classificada como uma estrela anã amarela. "
+        android:textAlignment="center"
+        android:textColor="#F5FFFFFF"
+        android:textSize="12sp"
+        android:textStyle="bold|italic"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.518"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView9" />
+
+    <TextView
+        android:id="@+id/textView30"
+        android:layout_width="267dp"
+        android:layout_height="68dp"
+        android:layout_marginTop="28dp"
+        android:backgroundTint="#FFFFFF"
+        android:text="Sol"
+        android:textAlignment="center"
+        android:textColor="#FFFFFF"
+        android:textSize="48sp"
+        android:textStyle="normal|bold|italic"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/imageView9"
+        android:layout_width="395"
+        android:layout_height="240"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView30"
+        app:srcCompat="@drawable/sol" />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Sistema Solar"
+        tools:layout_editor_absoluteX="21dp"
+        tools:layout_editor_absoluteY="667dp" />
+
+    <Button
+        android:id="@+id/button3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Mercurio"
+        tools:layout_editor_absoluteX="281dp"
+        tools:layout_editor_absoluteY="667dp" />
+</android.support.constraint.ConstraintLayout>
