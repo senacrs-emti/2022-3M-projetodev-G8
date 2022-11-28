@@ -6,32 +6,6 @@
     android:layout_height="match_parent"
     android:background="#000000">
 
-    <Spinner
-        android:id="@+id/spinner8"
-        android:layout_width="199dp"
-        android:layout_height="18dp"
-        android:background="@android:drawable/btn_dropdown"
-        android:spinnerMode="dropdown"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.707"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/textView28" />
-
-    <TextView
-        android:id="@+id/textView28"
-        android:layout_width="288dp"
-        android:layout_height="41dp"
-        android:layout_marginTop="40dp"
-        android:text="Escolha um número e ele te levará para o próximo Planeta"
-        android:textAlignment="viewStart"
-        android:textColor="#FFFFFF"
-        android:textIsSelectable="false"
-        android:textStyle="normal|bold|italic"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.495"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/textView27" />
-
     <TextView
         android:id="@+id/textView27"
         android:layout_width="364dp"
@@ -70,4 +44,25 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/textView26"
         app:srcCompat="@drawable/netuno" />
+
+    <Button
+        android:id="@+id/btnVltUrano"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="25dp"
+        android:layout_marginTop="76dp"
+        android:text="Urano"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView27" />
+
+    <Button
+        android:id="@+id/btnAvRef"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="76dp"
+        android:layout_marginEnd="25dp"
+        android:text="Referências"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView27" />
+
 </android.support.constraint.ConstraintLayout>

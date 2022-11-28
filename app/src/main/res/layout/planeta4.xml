@@ -6,31 +6,6 @@
     android:layout_height="match_parent"
     android:background="#FD000000">
 
-    <Spinner
-        android:id="@+id/spinner4"
-        android:layout_width="190dp"
-        android:layout_height="24dp"
-        android:background="@android:drawable/btn_dropdown"
-        android:spinnerMode="dropdown"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.71"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/textView14" />
-
-    <TextView
-        android:id="@+id/textView14"
-        android:layout_width="283dp"
-        android:layout_height="44dp"
-        android:layout_marginTop="40dp"
-        android:text="Escolha um número e ele te levará para o próximo Planeta"
-        android:textAlignment="viewStart"
-        android:textColor="#FFFFFF"
-        android:textIsSelectable="false"
-        android:textStyle="normal|bold|italic"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/textView16" />
-
     <TextView
         android:id="@+id/textView15"
         android:layout_width="267dp"
@@ -68,4 +43,24 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/textView15"
         app:srcCompat="@drawable/marte" />
+
+    <Button
+        android:id="@+id/btnVltTerra"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="25dp"
+        android:layout_marginTop="76dp"
+        android:text="Terra"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView16" />
+
+    <Button
+        android:id="@+id/btnAvJup"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="76dp"
+        android:layout_marginEnd="25dp"
+        android:text="Júpiter"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView16" />
 </android.support.constraint.ConstraintLayout>

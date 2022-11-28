@@ -30,14 +30,14 @@
         android:id="@+id/textView2"
         android:layout_width="278dp"
         android:layout_height="66dp"
-        android:layout_marginTop="28dp"
+        android:layout_marginTop="8dp"
         android:text="Vamos falar um pouco sobre o nosso Sistema Solar?"
         android:textAlignment="center"
         android:textColor="#FFFFFF"
         android:textSize="20"
         android:textStyle="bold|italic"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.496"
+        app:layout_constraintHorizontal_bias="0.473"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/textView5" />
 
@@ -45,15 +45,16 @@
         android:id="@+id/textView3"
         android:layout_width="370dp"
         android:layout_height="74dp"
-        android:layout_marginTop="176dp"
+        android:layout_marginTop="12dp"
         android:text="O Sistema Solar é um conjunto formado por oito planetas e outros corpos celestes, que orbitam o Sol, a sua principal estrela. Ele se encontra localizado na Via Láctea, uma das bilhões de galáxias que formam o Universo."
         android:textAlignment="center"
         android:textColor="#FFFFFF"
         android:textIsSelectable="false"
         android:textStyle="bold|italic"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.39"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/textView2" />
+        app:layout_constraintTop_toBottomOf="@+id/imageView10" />
 
     <TextView
         android:id="@+id/textView29"
@@ -85,11 +86,21 @@
         app:layout_constraintTop_toBottomOf="@+id/textView29" />
 
     <Button
-        android:id="@+id/button2"
+        android:id="@+id/btnAvSol"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_marginTop="12dp"
+        android:layout_marginEnd="25dp"
         android:text="SOL"
-        tools:layout_editor_absoluteX="257dp"
-        tools:layout_editor_absoluteY="656dp" />
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView4" />
+
+    <ImageView
+        android:id="@+id/imageView10"
+        android:layout_width="466dp"
+        android:layout_height="189dp"
+        app:layout_constraintTop_toBottomOf="@+id/textView2"
+        app:srcCompat="@drawable/sistemasolar"
+        tools:layout_editor_absoluteX="-28dp" />
 
 </android.support.constraint.ConstraintLayout>

@@ -3,16 +3,17 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
-        <entry key="..\:/xampp/htdocs/2022-3M-projetodev-G8/app/src/main/res/layout/activity_main.xml" value="0.4466666666666667" />
-        <entry key="..\:/xampp/htdocs/2022-3M-projetodev-G8/app/src/main/res/layout/estrela.xml" value="0.22" />
-        <entry key="..\:/xampp/htdocs/2022-3M-projetodev-G8/app/src/main/res/layout/planeta1.xml" value="0.16666666666666666" />
-        <entry key="..\:/xampp/htdocs/2022-3M-projetodev-G8/app/src/main/res/layout/planeta2.xml" value="0.1796875" />
-        <entry key="..\:/xampp/htdocs/2022-3M-projetodev-G8/app/src/main/res/layout/planeta3.xml" value="0.17864583333333334" />
-        <entry key="..\:/xampp/htdocs/2022-3M-projetodev-G8/app/src/main/res/layout/planeta4.xml" value="0.22" />
-        <entry key="..\:/xampp/htdocs/2022-3M-projetodev-G8/app/src/main/res/layout/planeta5.xml" value="0.16666666666666666" />
-        <entry key="..\:/xampp/htdocs/2022-3M-projetodev-G8/app/src/main/res/layout/planeta6.xml" value="0.22" />
-        <entry key="..\:/xampp/htdocs/2022-3M-projetodev-G8/app/src/main/res/layout/planeta7.xml" value="0.16666666666666666" />
-        <entry key="..\:/xampp/htdocs/2022-3M-projetodev-G8/app/src/main/res/layout/planeta8.xml" value="0.17864583333333334" />
+        <entry key="..\:/xampp/htdocs/2022-3M-projetodev-G8/app/src/main/res/layout/activity_main.xml" value="0.22" />
+        <entry key="..\:/xampp/htdocs/2022-3M-projetodev-G8/app/src/main/res/layout/activity_ref.xml" value="0.16666666666666666" />
+        <entry key="..\:/xampp/htdocs/2022-3M-projetodev-G8/app/src/main/res/layout/estrela.xml" value="0.3333333333333333" />
+        <entry key="..\:/xampp/htdocs/2022-3M-projetodev-G8/app/src/main/res/layout/planeta1.xml" value="0.3333333333333333" />
+        <entry key="..\:/xampp/htdocs/2022-3M-projetodev-G8/app/src/main/res/layout/planeta2.xml" value="0.3333333333333333" />
+        <entry key="..\:/xampp/htdocs/2022-3M-projetodev-G8/app/src/main/res/layout/planeta3.xml" value="0.3333333333333333" />
+        <entry key="..\:/xampp/htdocs/2022-3M-projetodev-G8/app/src/main/res/layout/planeta4.xml" value="0.3333333333333333" />
+        <entry key="..\:/xampp/htdocs/2022-3M-projetodev-G8/app/src/main/res/layout/planeta5.xml" value="0.3333333333333333" />
+        <entry key="..\:/xampp/htdocs/2022-3M-projetodev-G8/app/src/main/res/layout/planeta6.xml" value="0.3333333333333333" />
+        <entry key="..\:/xampp/htdocs/2022-3M-projetodev-G8/app/src/main/res/layout/planeta7.xml" value="0.3333333333333333" />
+        <entry key="..\:/xampp/htdocs/2022-3M-projetodev-G8/app/src/main/res/layout/planeta8.xml" value="0.3333333333333333" />
       </map>
     </option>
   </component>

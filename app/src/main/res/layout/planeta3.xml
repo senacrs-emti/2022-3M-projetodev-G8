@@ -7,30 +7,6 @@
     android:background="#FD000000">
 
     <TextView
-        android:id="@+id/textView13"
-        android:layout_width="283dp"
-        android:layout_height="44dp"
-        android:layout_marginTop="40dp"
-        android:text="Escolha um número e ele te levará para o próximo Planeta"
-        android:textAlignment="viewStart"
-        android:textColor="#FFFFFF"
-        android:textIsSelectable="false"
-        android:textStyle="normal|bold|italic"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.562"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/textView12" />
-
-    <Spinner
-        android:id="@+id/spinner3"
-        android:layout_width="187dp"
-        android:layout_height="24dp"
-        android:background="@android:drawable/btn_dropdown"
-        android:spinnerMode="dropdown"
-        app:layout_constraintTop_toBottomOf="@+id/textView13"
-        tools:layout_editor_absoluteX="166dp" />
-
-    <TextView
         android:id="@+id/textView12"
         android:layout_width="364dp"
         android:layout_height="123dp"
@@ -67,4 +43,24 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/textView9"
         app:srcCompat="@drawable/terra" />
+
+    <Button
+        android:id="@+id/btnVltVenus"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="25dp"
+        android:layout_marginTop="76dp"
+        android:text="Vênus"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView12" />
+
+    <Button
+        android:id="@+id/btnAvMarte"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="76dp"
+        android:layout_marginEnd="25dp"
+        android:text="Marte"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView12" />
 </android.support.constraint.ConstraintLayout>

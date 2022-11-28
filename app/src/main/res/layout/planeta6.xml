@@ -7,31 +7,6 @@
     android:background="#000000">
 
     <TextView
-        android:id="@+id/textView22"
-        android:layout_width="288dp"
-        android:layout_height="41dp"
-        android:layout_marginTop="40dp"
-        android:text="Escolha um número e ele te levará para o próximo Planeta"
-        android:textAlignment="viewStart"
-        android:textColor="#FFFFFF"
-        android:textIsSelectable="false"
-        android:textStyle="normal|bold|italic"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/textView21" />
-
-    <Spinner
-        android:id="@+id/spinner6"
-        android:layout_width="199dp"
-        android:layout_height="18dp"
-        android:background="@android:drawable/btn_dropdown"
-        android:spinnerMode="dropdown"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.712"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/textView22" />
-
-    <TextView
         android:id="@+id/textView21"
         android:layout_width="364dp"
         android:layout_height="123dp"
@@ -68,4 +43,24 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/textView20"
         app:srcCompat="@drawable/saturno" />
+
+    <Button
+        android:id="@+id/btnVltJup"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="25dp"
+        android:layout_marginTop="76dp"
+        android:text="Júpiter"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView21" />
+
+    <Button
+        android:id="@+id/btnAvUrano"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="76dp"
+        android:layout_marginEnd="25dp"
+        android:text="Urano"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView21" />
 </android.support.constraint.ConstraintLayout>
