@@ -24,7 +24,7 @@ public class planeta1 extends AppCompatActivity {
             @Override
             public void onClick(View view) {
                 //navegacao de tela
-                Intent telaSol = new Intent( getApplicationContext() ,MainActivity.class);
+                Intent telaSol = new Intent( getApplicationContext() ,estrela.class);
                 startActivity(telaSol);
 
     }

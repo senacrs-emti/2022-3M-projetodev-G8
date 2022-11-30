@@ -27,10 +27,54 @@
 
     <TextView
         android:id="@+id/textView11"
-        android:layout_width="157dp"
-        android:layout_height="169dp"
-        android:text="referencias"
+        android:layout_width="334dp"
+        android:layout_height="72dp"
+        android:layout_marginTop="72dp"
+        android:text=" NASA. Exploração do Sistema Solar. Disponível em: < https://solarsystem.nasa.gov/ >. Acesso em: 07 de Nov. de 2022. "
         android:textColor="#FFFFFF"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.493"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView7" />
+
+    <TextView
+        android:id="@+id/textView14"
+        android:layout_width="325dp"
+        android:layout_height="81dp"
+        android:layout_marginTop="16dp"
+        android:text=" MUNDO EDUCAÇÃO. Planetas do Sistema Solar. Disponível em: < https://mundoeducacao.uol.com.br/amp/geografia/planetas.htm >. Acesso em: 07 de Nov. de 2022. "
+        android:textColor="#FFFFFF"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView11" />
+
+    <TextView
+        android:id="@+id/textView18"
+        android:layout_width="332dp"
+        android:layout_height="67dp"
+        android:layout_marginTop="36dp"
+        android:text="MUNDO EDUCAÇÃO. O Sol. Disponível em: < https://mundoeducacao.uol.com.br/fisica/o-sol.htm >. Acesso em: 16 de Nov. de 2022. "
+        android:textColor="#FFFFFF"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView14" />
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="64dp"
+        android:text="Sistema Solar"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView18" />
+
+    <Button
+        android:id="@+id/button3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Quem criou?"
         tools:layout_editor_absoluteX="149dp"
-        tools:layout_editor_absoluteY="262dp" />
+        tools:layout_editor_absoluteY="597dp" />
+
 </android.support.constraint.ConstraintLayout>

@@ -6,14 +6,14 @@ import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
 
-public class refActivity extends AppCompatActivity {
+public class programadores extends AppCompatActivity {
 
     Button btnVltSistema;
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_ref);
-
+        setContentView(R.layout.programadores);
 
         //Voltar
         btnVltSistema= findViewById(R.id.btnVltSistema);
@@ -25,7 +25,6 @@ public class refActivity extends AppCompatActivity {
                 startActivity(telaPrincipal);
             }
         });
-
 
     }
 }
