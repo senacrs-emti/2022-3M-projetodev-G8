@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#000000"
+    tools:context=".devActivity">
+
+    <TextView
+        android:id="@+id/textView13"
+        android:layout_width="303dp"
+        android:layout_height="73dp"
+        android:layout_marginTop="36dp"
+        android:backgroundTint="#000000"
+        android:text="Devs"
+        android:textAlignment="center"
+        android:textAllCaps="false"
+        android:textColor="#FFFFFF"
+        android:textSize="40sp"
+        android:textStyle="normal|bold|italic"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/imageView12"
+        android:layout_width="103dp"
+        android:layout_height="112dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="20dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView13"
+        app:srcCompat="@drawable/marina" />
+
+    <ImageView
+        android:id="@+id/imageView13"
+        android:layout_width="104dp"
+        android:layout_height="110dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="20dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView12"
+        app:srcCompat="@drawable/pati" />
+
+    <ImageView
+        android:id="@+id/imageView14"
+        android:layout_width="104dp"
+        android:layout_height="113dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="20dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView13"
+        app:srcCompat="@drawable/paulo" />
+
+    <TextView
+        android:id="@+id/textView22"
+        android:layout_width="166dp"
+        android:layout_height="44dp"
+        android:layout_marginTop="56dp"
+        android:text="Marina - Protótipo e pesquisa. "
+        android:textAlignment="center"
+        android:textColor="#FFFFFF"
+        android:textStyle="bold|italic"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/imageView12"
+        app:layout_constraintTop_toBottomOf="@+id/textView13" />
+
+    <TextView
+        android:id="@+id/textView25"
+        android:layout_width="166dp"
+        android:layout_height="44dp"
+        android:layout_marginStart="60dp"
+        android:layout_marginTop="80dp"
+        android:text="Patrícia - Tornar o aplicativo funcional."
+        android:textAlignment="center"
+        android:textColor="#FFFFFF"
+        android:textStyle="bold|italic"
+        app:layout_constraintStart_toEndOf="@+id/imageView13"
+        app:layout_constraintTop_toBottomOf="@+id/textView22" />
+
+    <TextView
+        android:id="@+id/textView28"
+        android:layout_width="144dp"
+        android:layout_height="44dp"
+        android:layout_marginTop="80dp"
+        android:text="Paulo - Pesquisa e escolha das imagens. "
+        android:textAlignment="center"
+        android:textColor="#FFFFFF"
+        android:textStyle="bold|italic"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.493"
+        app:layout_constraintStart_toEndOf="@+id/imageView14"
+        app:layout_constraintTop_toBottomOf="@+id/textView25" />
+
+    <Button
+        android:id="@+id/btnVltSis"
+        android:layout_width="64dp"
+        android:layout_height="31dp"
+        android:layout_marginTop="472dp"
+        android:text="Início"
+        android:textSize="8sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView13" />
+
+</android.support.constraint.ConstraintLayout>

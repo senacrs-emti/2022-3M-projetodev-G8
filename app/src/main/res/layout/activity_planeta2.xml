@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#000000"
+    tools:context=".planeta2Activity">
+
+
+    <TextView
+        android:id="@+id/textView10"
+        android:layout_width="364dp"
+        android:layout_height="123dp"
+        android:layout_marginTop="40dp"
+        android:text="O planeta Vênus, sendo o segundo em ordem de classificação a partir do Sol, é o mais quente do Sistema Solar. Ele possui características de tamanho, diâmetro e massa muito semelhantes às da Terra, mas não possui nenhum vestígio de formas de vida. Sua formação, assim como a da Terra, é composta por rochas diversas, com destaque para silicatos e basaltos. "
+        android:textAlignment="center"
+        android:textColor="#F5FFFFFF"
+        android:textStyle="bold|italic"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.659"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView8" />
+
+    <TextView
+        android:id="@+id/textView8"
+        android:layout_width="267dp"
+        android:layout_height="68dp"
+        android:layout_marginTop="28dp"
+        android:backgroundTint="#000000"
+        android:text="Vênus"
+        android:textAlignment="center"
+        android:textColor="#FFFFFF"
+        android:textSize="48sp"
+        android:textStyle="normal|bold|italic"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/btnVltMerc"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="25dp"
+        android:layout_marginTop="76dp"
+        android:text="Mercúrio"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView10" />
+
+    <Button
+        android:id="@+id/btnAvTerra"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="76dp"
+        android:layout_marginEnd="28dp"
+        android:text="Terra"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView10" />
+
+    <ImageView
+        android:id="@+id/imageView8"
+        android:layout_width="300dp"
+        android:layout_height="190dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView8"
+        app:srcCompat="@drawable/venus" />
+
+
+</android.support.constraint.ConstraintLayout>

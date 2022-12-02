@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:background="#000000"
+    android:layout_height="match_parent"
+    tools:context=".planeta4Activity">
+
+
+    <TextView
+        android:id="@+id/textView15"
+        android:layout_width="267dp"
+        android:layout_height="68dp"
+        android:layout_marginTop="28dp"
+        android:backgroundTint="#000000"
+        android:text="Marte"
+        android:textAlignment="center"
+        android:textAllCaps="false"
+        android:textColor="#FFFFFF"
+        android:textSize="48sp"
+        android:textStyle="normal|bold|italic"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textView16"
+        android:layout_width="364dp"
+        android:layout_height="123dp"
+        android:layout_marginTop="40dp"
+        android:text="Marte, conhecido como Planeta Vermelho, possui características estruturais bastante semelhantes às da Terra. Apresenta uma superfície marcada por grandes crateras e pela ocorrência de diversos depósitos minerais. Marte possui dois satélites naturais, e é um dos planetas mais estudados pelas ciências astronômicas."
+        android:textAlignment="center"
+        android:textColor="#F5FFFDFD"
+        android:textStyle="bold|italic"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView10" />
+
+    <Button
+        android:id="@+id/btnVltTerra"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="25dp"
+        android:layout_marginTop="76dp"
+        android:text="Terra"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView16" />
+
+    <Button
+        android:id="@+id/btnAvJup"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="76dp"
+        android:layout_marginEnd="25dp"
+        android:text="Júpiter"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView16" />
+
+    <ImageView
+        android:id="@+id/imageView10"
+        android:layout_width="300dp"
+        android:layout_height="190dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView15"
+        app:srcCompat="@drawable/marte" />
+
+
+</android.support.constraint.ConstraintLayout>
